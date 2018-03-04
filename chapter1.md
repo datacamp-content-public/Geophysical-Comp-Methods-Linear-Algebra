@@ -23,19 +23,18 @@ P
 `@hint`
 
 
-`@pre_exercise_code`
-```{python}
-import numpy as np
-```
+
 `@sample_code`
 ```{python}
-a = np.a = np.arange(20)
+import numpy as np
+a =  np.arange(20)
 
 print(a[...])
 ```
 `@solution`
 ```{python}
-a = np.a = np.arange(20)
+import numpy as np
+a = np.arange(20)
 
 print(a[0])
 ```
