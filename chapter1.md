@@ -18,7 +18,7 @@ key: 1cd9d19166
 
 
 `@instructions`
-P
+Print the 1st value in the array
 
 `@hint`
 
