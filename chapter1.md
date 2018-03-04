@@ -40,10 +40,10 @@ print(a[ 0 ])
 ```
 `@sct`
 ```{python}
- ```{python}
-    Ex().test_output_contains('0')
-    success_msg('Great job!')
-    ```
+ 
+Ex().test_output_contains('0')
+success_msg('Great job!')
+
 ```
 
 
