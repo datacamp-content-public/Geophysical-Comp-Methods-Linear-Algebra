@@ -29,20 +29,23 @@ Print the 1st value in the array
 import numpy as np
 a =  np.arange(20)
 
-print(a[ ... ])
+b = a[ ... ]
+
+print(b)
 ```
 `@solution`
 ```{python}
 import numpy as np
-a = np.arange(20)
+a =  np.arange(20)
 
-print(a[ 0 ])
+b = a[ 0 ]
+
+print(b)
 ```
 `@sct`
 ```{python}
+Ex().check_object('b').has_equal_value()
 Ex().test_output_contains('0')
-test_not(Ex().test_output_contains('1'),
-            Ex().test_output_contains('2'))
 success_msg('Great job!')
 ```
 
