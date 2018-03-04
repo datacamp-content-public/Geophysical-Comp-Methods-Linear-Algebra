@@ -29,63 +29,15 @@ Print the 1st value in the array
 import numpy as np
 a =  np.arange(20)
 
-print(a[...])
+print(a[ ... ])
 ```
 `@solution`
 ```{python}
 import numpy as np
 a = np.arange(20)
 
-print(a[0])
+print(a[ 0 ])
 ```
-
-
-
-
-
-
----
-## Slicing 2
-
-```yaml
-type: BulletExercise
-
-xp: NaN
-
-key: 9ab09e8ec4
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
----
-## Slicing 3
-
-```yaml
-type: NormalExercise
-
-xp: NaN
-
-key: f5d873378d
-```
-
-
-
-
-
-
-
-
 
 
 
