@@ -35,7 +35,9 @@ print(a[...])
 ```
 `@solution`
 ```{python}
-a[0]
+a = np.a = np.arange(20)
+
+print(a[0])
 ```
 
 
@@ -49,7 +51,7 @@ a[0]
 ```yaml
 type: BulletExercise
 
-xp: 
+xp: NaN
 
 key: 9ab09e8ec4
 ```
@@ -73,17 +75,13 @@ key: 9ab09e8ec4
 ```yaml
 type: NormalExercise
 
-xp: 
+xp: NaN
 
 key: f5d873378d
 ```
 
 
 
-`@instructions`
-
-
-`@hint`
 
 
 
