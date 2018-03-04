@@ -1,9 +1,11 @@
 ---
-title: Test
-description: Test
+title: SLICING
+description: >-
+  Slicing
+
 
 ---
-## Sample exercise
+## Slicing 1
 
 ```yaml
 type: NormalExercise
@@ -14,26 +16,81 @@ key: 1cd9d19166
 ```
 
 
+
 `@instructions`
+P
 
 `@hint`
 
+
 `@pre_exercise_code`
 ```{python}
-
+import numpy as np
 ```
-
 `@sample_code`
 ```{python}
+a = np.a = np.arange(20)
 
+print(a[...])
 ```
-
 `@solution`
 ```{python}
-
+a[0]
 ```
 
-`@sct`
-```{python}
 
+
+
+
+
+---
+## Slicing 2
+
+```yaml
+type: BulletExercise
+
+xp: 
+
+key: 9ab09e8ec4
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+## Slicing 3
+
+```yaml
+type: NormalExercise
+
+xp: 
+
+key: f5d873378d
+```
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+
+
+
+
+
+
+
+
