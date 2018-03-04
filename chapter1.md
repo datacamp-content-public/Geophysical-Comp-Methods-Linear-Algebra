@@ -41,8 +41,8 @@ print(a[ 0 ])
 `@sct`
 ```{python}
 Ex().test_output_contains('0')
-test_not(test_output_contains('1'),
-            test_output_contains('2'))
+test_not(Ex().test_output_contains('1'),
+            Ex().test_output_contains('2'))
 success_msg('Great job!')
 ```
 
